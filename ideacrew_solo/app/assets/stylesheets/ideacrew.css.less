@@ -1,0 +1,158 @@
+// Begin IdeaCrew Customization
+
+// @ps-text:         #EEEEEE;
+// @ps-nav-bg:       #F2F2F5;
+// @ps-link-text:    #333363;
+// @ps-nav-text:     #5E60A4;
+// @ps-well-bg:      #C2B59B;
+// @ps-jumbotron-bg: #333363;
+// @ps-bg:           #595A8A;
+
+// @brand-primary:         #333363;
+// @brand-success:         #5cb85c;
+// @brand-info:            #5bc0de;
+// @brand-warning:         #f0ad4e;
+// @brand-danger:          #d9534f;
+
+
+@import url(http://fonts.googleapis.com/css?family=Muli:400,400italic);
+
+html, body {
+  font-family: 'Muli', sans-serif;
+}
+
+img {
+  max-width: 100%
+  height: auto;
+}
+
+section {
+  min-height: 100%;  /* Fallback for browsers that do NOT support vh unit */
+  min-height: 100vh;
+  padding: 30px 10px;
+}
+
+container {
+  // height: 100%;
+  // width: 100%;  
+}
+
+footer .footer {
+  height: 100px;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
+}
+
+#logo {
+  padding-top: 180px;
+}
+
+.navbar {
+  border-radius: 0;
+  position: fixed;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.scroll-panel {
+  padding-top: 40px;
+}
+
+.jumbotron {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
+
+.jumbotron h1 {
+  margin-top: 30px;
+}
+
+.showcase-item {
+  // height: 220px;
+  padding: 2px;
+  text-align: center;
+  padding: 30px 25px 0px 25px;
+}
+
+.showcase-item-box {
+    // background: #C2B59B;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;  
+}
+
+.showcase-item .title {
+  padding-top: 15px; 
+  padding-bottom: 0.25em; 
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.showcase-item p {
+  font-size: 1.4em;
+}
+
+.showcase-item img {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  width: 150px;
+  padding-bottom: 15px;
+}
+
+// Fix Bootstrap aligment problem on blank definitions by appending an &nbsp;
+dl.dl-horizontal {
+    dd:after {
+        content: "\0000a0";
+    }
+}
+
+.vertical-centered {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+#contact-form {
+  margin-top: 50px;
+}
+
+.form-group { text-align: left; }
+
+.form-group.required label:after {
+  content: "*";
+  color: red;
+}
+
+textarea.form-control {
+  min-height: 90px;
+}
+
+.image-centered { display: block; margin-left: auto; margin-right: auto }
+.text-centered { text-align: center; }
+.text-left-justified { text-align: left; }
+.text-right-justified { text-align: right; }
+.no-margin { margin: 0; }
+.full-width { width: 100% }
+.horizontal-centered { width: auto}
+.white-bg { background: #fff; color: #333}
+.black-bg { background: #333; }
+.khaki-bg { background: #C2B59B }
+.black-color { color: #333 }
+.gray-color { color: #777777 }
+.white-color { color: #EEEEEE }
+.khaki-color { color: #C2B59B; }
+.purple-color { color: #333363 }
+.bold { font-weight: 500; }
+.lighter-violet-bg { background: #5E60A4; }
+
